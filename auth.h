@@ -4,8 +4,8 @@
 #include <security/pam_appl.h>
 #include <security/pam_misc.h>
 
-int dConv(int num_msg, const struct pam_message **msg, struct pam_response **resp, void *appdata_ptr);
+int dConv(int num_msg, const struct pam_message **msg,
+          struct pam_response **resp, void *appdata_ptr);
 int login(char *username, char *password);
-
 
 #endif
